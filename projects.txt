@@ -2,3 +2,4 @@ gmx
 uniswap
 sushiswap
 opensea
+aave
