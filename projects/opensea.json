@@ -3,6 +3,7 @@
   "description": "OpenSea is the world's largest marketplace for crypto collectibles and non-fungible tokens (NFTs).",
   "url": "https://opensea.io/",
   "image": "https://storage.googleapis.com/opensea-static/Logomark/Logomark-Blue.png",
+  "disable": true,
   "contracts": {
     "1": [
       {
