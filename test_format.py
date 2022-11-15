@@ -1,7 +1,7 @@
 import json
 import os
 
-valid_chains = [1, 10, 56, 137, 250, 42161, 42220, 43114]
+valid_chains = [1, 10, 56, 137, 250, 42161, 42220, 43114, 1313161554]
 
 
 def test_project_index_size():
