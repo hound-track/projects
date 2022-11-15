@@ -3,3 +3,4 @@ uniswap
 sushiswap
 opensea
 aave
+metapool

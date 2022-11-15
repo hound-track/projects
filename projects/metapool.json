@@ -1,0 +1,54 @@
+{
+  "name": "Meta Pool ",
+  "description": "Liquid staking on NEAR",
+  "url": "https://metapool.app/",
+  "image": "https://pbs.twimg.com/profile_images/1534299388805189632/aB2d0Nmn_400x400.png",
+  "contracts": {
+    "1313161554": [
+      {
+        "name": "AuroraStNear",
+        "address": "0x534BACf1126f60EA513F796a3377ff432BE62cf9",
+        "abi": [
+          {
+            "anonymous": false,
+            "inputs": [
+              {
+                "indexed": true,
+                "internalType": "address",
+                "name": "admin",
+                "type": "address"
+              },
+              {
+                "indexed": true,
+                "internalType": "uint256",
+                "name": "amount",
+                "type": "uint256"
+              }
+            ],
+            "name": "wNearWithdraw",
+            "type": "event"
+          },
+          {
+            "anonymous": false,
+            "inputs": [
+              {
+                "indexed": true,
+                "internalType": "address",
+                "name": "admin",
+                "type": "address"
+              },
+              {
+                "indexed": true,
+                "internalType": "uint256",
+                "name": "amount",
+                "type": "uint256"
+              }
+            ],
+            "name": "stNearWithdraw",
+            "type": "event"
+          }
+        ]
+      }
+    ]
+  }
+}
