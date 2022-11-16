@@ -1,8 +1,8 @@
 gmx
 uniswap
-sushiswap
 opensea
 aave
 metapool
 traderjoe
 meanfinance
+sushiswap

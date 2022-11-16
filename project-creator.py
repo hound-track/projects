@@ -76,6 +76,41 @@ if __name__ == '__main__':
                     f"https://api.snowtrace.io/api?module=contract&action=getabi&address={address}&format=raw",
                     name,
                     address))
+            elif chain_id == "250":  # ftm
+                contracts[chain_id].append(get_contract_data(
+                    f"https://api.ftmscan.com/api?module=contract&action=getabi&address={address}&format=raw",
+                    name,
+                    address))
+            # elif chain_id == "1666600000":  # hmy
+            #     contracts[chain_id].append(get_contract_data(
+            #         f"https://api.explorer.harmony.one/api?module=contract&action=getabi&address={address}&format=raw",
+            #         name,
+            #         address))
+            # elif chain_id == "1088":  # metis
+            #     contracts[chain_id].append(get_contract_data(
+            #         f"https://api.andromeda-explorer.metis.io/api?module=contract&action=getabi&address={address}&format=raw",
+            #         name,
+            #         address))
+            # elif chain_id == "40":  # telo
+            #     contracts[chain_id].append(get_contract_data(
+            #         f"https://api.teloscan.io/api?module=contract&action=getabi&address={address}&format=raw",
+            #         name,
+            #         address))
+            # elif chain_id == "122":  # fuse
+            #     contracts[chain_id].append(get_contract_data(
+            #         f"https://api.fuse.io/api?module=contract&action=getabi&address={address}&format=raw",
+            #         name,
+            #         address))
+            # elif chain_id == "66":  # OKEx
+            #     contracts[chain_id].append(get_contract_data(
+            #         f"https://api.oklink.com/en/okc/api?module=contract&action=getabi&address={address}&format=raw",
+            #         name,
+            #         address))
+            # elif chain_id == "11297108109":  # Palm
+            #     contracts[chain_id].append(get_contract_data(
+            #         f"https://api.explorer.palm.io//api?module=contract&action=getabi&address={address}&format=raw",
+            #         name,
+            #         address))
         except Exception as e:
             print(e)
 
