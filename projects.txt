@@ -6,3 +6,4 @@ metapool
 traderjoe
 meanfinance
 sushiswap
+balancer
