@@ -4,3 +4,4 @@ sushiswap
 opensea
 aave
 metapool
+traderjoe
