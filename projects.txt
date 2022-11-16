@@ -5,3 +5,4 @@ opensea
 aave
 metapool
 traderjoe
+meanfinance
