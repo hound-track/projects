@@ -1,10 +1,10 @@
-gmx
 uniswap
+sushiswap
+gmx
+meanfinance
 opensea
 aave
 metapool
 traderjoe
-meanfinance
-sushiswap
 balancer
 sudoswap
