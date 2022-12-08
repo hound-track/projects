@@ -8,3 +8,4 @@ metapool
 traderjoe
 balancer
 sudoswap
+sarcophagus
