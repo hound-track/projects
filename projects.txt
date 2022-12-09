@@ -9,3 +9,4 @@ traderjoe
 balancer
 sudoswap
 sarcophagus
+dxdao
