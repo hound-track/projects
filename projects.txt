@@ -10,3 +10,4 @@ balancer
 sudoswap
 sarcophagus
 dxdao
+llamapay
